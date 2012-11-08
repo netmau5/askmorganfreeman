@@ -1,0 +1,148 @@
+body {
+  background: transparent url('../img/bg.jpg') top left repeat;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  font-family: "Open Sans Condensed";
+  margin: 0;
+}
+
+header {
+  height: 68px;
+  padding: 10px 20px;
+  background-color: black;
+  background-color: rgba(255, 255, 255, .15);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('../img/freeman.png') right -80px no-repeat;
+}
+
+header h1 {
+  height: 48px;
+  line-height: 48px;
+  font-family: "Open Sans Condensed";
+  letter-spacing: -1px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+}
+
+header h1 .logo {
+  float: left;
+  display: block;
+  height: 48px;
+  width: 48px;
+  margin-right: 10px;
+  background: url('../img/logo.png') center left no-repeat;
+  text-indent: -9999px;
+}
+
+ul.social {
+  list-style-type: none;
+  float: right;
+}
+
+ul.social li {
+  float: left;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+ul.social a {
+  text-indent: -9999px;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url('../img/social.png') top center no-repeat;
+  -webkit-transition: background 150ms linear;
+    -moz-transition: background 150ms linear;
+        -ms-transition: background 150ms linear;
+        -o-transition: background 150ms linear;
+    transition: background 150ms linear;
+}
+
+ul.social a.twitter:hover { background-position: 0 -32px; }
+ul.social a.facebook { background-position: 0 -64px; }
+ul.social a.facebook:hover { background-position: 0 -96px; }
+
+
+header, .question {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .75);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .75);
+}
+
+.question {
+  background-color: rgba(255, 255, 255, 0.02);
+  position: relative;
+  cursor: pointer;
+}
+
+.question img {
+  width: 100%;
+  height: 100%;
+}
+
+.question .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.2;
+}
+
+.question:hover .overlay {
+  opacity: .4;
+}
+
+.question h2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #d5d5d5;
+  font-size: 18px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  text-shadow: 0px 0px 3px #000000;
+  filter: dropshadow(color=#000000, offx=0, offy=0);
+  z-index: 4;
+}
+
+.question:hover h2 {
+  color: white;
+  z-index: 3;
+}
+
+.question.span12 {
+  height: 495px;
+}
+
+.question.span9 {
+  height: 371.25px;
+}
+
+.question.span8 {
+  height: 337.5px;
+}
+
+.question.span6 {
+  height: 247.5px;
+}
+
+.question.span6.deep2 {
+  height: 267.5px;
+}
+
+.question.span4 {
+  height: 168.75px;
+}
+
+.question.span3 {
+  height: 123.75px;
+}
